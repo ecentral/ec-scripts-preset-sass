@@ -1,6 +1,9 @@
 const path = require('path');
 
 module.exports = {
+    options: {
+        stylesDir: 'styles', // relative to srcDir
+    },
     runners: (config) => ({
         ...config.runners,
 
