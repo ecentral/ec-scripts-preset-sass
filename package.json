@@ -27,6 +27,7 @@
     "sass-loader": "^7.1.0"
   },
   "peerDependencies": {
-    "ec-scripts": "*"
+    "ec-scripts": "*",
+    "identity-obj-proxy": "*"
   }
 }

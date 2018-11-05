@@ -36,5 +36,11 @@ module.exports = {
                 return [ ...rules, sassRule];
             },
         },
+
+        jest: {
+            moduleNameMapper: {
+                '\\.scss$': require.resolve('identity-obj-proxy'),
+            },
+        },
     }),
 };
